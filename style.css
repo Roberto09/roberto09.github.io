@@ -1,0 +1,113 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #111;
+}
+
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+header {
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.subtitle {
+  color: #444;
+  font-size: 0.95rem;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0.3rem;
+}
+
+p {
+  margin: 0.8rem 0;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+a {
+  color: #0056d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.pub {
+  margin-top: 1.5rem;
+}
+
+.pub .title {
+  font-weight: 600;
+}
+
+.pub .meta {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.pub .authors {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.me {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 2px;
+  }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.header-photo img {
+  width: 150px;
+  height: auto;
+  border-radius: 6px;   /* subtle rounding, not too “profile-pic” */
+  object-fit: cover;
+}
+
+.header-photo img {
+  filter: grayscale(5%);
+}
+
+.header-photo img {
+  width: 320px;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #666;
+}
