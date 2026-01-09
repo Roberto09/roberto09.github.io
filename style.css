@@ -92,7 +92,7 @@ a:hover {
 }
 
 .header-photo img {
-  width: 150px;
+  width: 80px;
   height: auto;
   border-radius: 6px;   /* subtle rounding, not too “profile-pic” */
   object-fit: cover;
@@ -103,7 +103,7 @@ a:hover {
 }
 
 .header-photo img {
-  width: 320px;
+  width: 250px;
 }
 
 footer {
